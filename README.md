@@ -44,6 +44,7 @@ go run issuecert.go
 
 ## Example Output
 
+```
 $ go run issuecert.go
 Acquiring certificate for ex2017-10-15-094853.somuch.tls.fun.
 API call to issue certificate returned with initial SSL status ofpending_validation (hostname ID=2587fd4e-215a-4b3c-82ff-ab07ac1e08fd).
@@ -65,4 +66,4 @@ Expiration Date      2018-10-15 12:00:00 +0000 UTC
 Common Name          ex2017-10-15-094853.mydomain.com
 Subject Alt. Name(s) [ex2017-10-15-094853.mydomain.com]
 ----------------------------------------------------------------------
-
+```
